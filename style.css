@@ -8,6 +8,7 @@ body{
     font-family: 'Roboto Mono';
     font-size: 70px;
     font-weight: bolder;
+    color: #0e0e0e;
 }
 
 .container{
@@ -37,13 +38,17 @@ footer{
     bottom: 0;
     width: 100%;
     background-color:#8A0303;
-    color: #0E0E0E;
+    color: #AA8E7D;
     text-align: right;
 }
 
 footer .container2{
     display: flex;
     flex-direction: column;
+}
+
+.container2 p{
+    margin-right: 20px;
 }
 
 .bounce7 {
